@@ -26,6 +26,7 @@ header {
     border: 2px solid #2ecc71;
     border-radius: 10px;
     background: rgba(red, green, blue, 0.0000000001);
+    
 }
 nav1 {
     display: flex;
@@ -58,7 +59,8 @@ a:hover {
 main{
     display:flex;
     grid-area:mn;
-    border:2px solid #2ecc71;
+    background-color: #556F44;
+    border:5px solid #011638;
     border-radius:10px;
     margin-top:15px;
 }
@@ -81,24 +83,43 @@ nav2{
 section1{
     display:flex;
     grid-area:sec1;
-    border:2px solid #2ecc71;
+    border: 5px solid #011638;
     border-radius:10px;
     margin-left: 20px;
     margin-right:20px;
+    background-color: #EAF4F4;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+    
 }
 section2{
     display:flex;
     grid-area:sec2;
-    border:2px solid #2ecc71;
+    border: 5px solid #011638;
     border-radius:10px;
     margin-right: 20px;
+    background-color: #EAF4F4;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
 }
 section3{
     display:flex;
     grid-area:sec3;
-    border:2px solid #2ecc71;
+    border: 5px solid #011638;
     border-radius:10px;
     margin-right: 20px;
+    background-color: #EAF4F4;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
     
 }
 footer{
@@ -107,4 +128,27 @@ footer{
     border:2px solid #2ecc71;
     border-radius:10px;
     margin-top: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+img.bild {
+    height:200px;
+    width: 200px;
+    border-radius: 500px;
+}
+
+
+.bitcount-prop-single {
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
 }
