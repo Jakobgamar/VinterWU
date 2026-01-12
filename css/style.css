@@ -48,6 +48,10 @@ a {
     color: #011638;
     text-decoration: none;
 }
+#logo{
+    width: 50px;
+
+}
 .a2:hover {
     cursor: pointer;
     color: #7B7263;
